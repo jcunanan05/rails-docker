@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  ruby_dev:
+    build: .
+    container_name: ruby_container
+    ports:
+      - "3000:3000"
