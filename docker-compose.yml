@@ -6,3 +6,5 @@ services:
     container_name: ruby_container
     ports:
       - "3000:3000"
+    volumes:
+      - ./:/home/app
